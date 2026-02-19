@@ -1,0 +1,7 @@
+rule_id,rule_name,logic,severity
+R001,Large Deposit,Single unusually high cash deposit exceeding expected profile,High
+R002,Dormant Account Activity,Inactive account suddenly receives large funds followed by rapid transfers,Medium
+R003,Structuring,Multiple deposits made below reporting threshold across time or branches,High
+R004,Layering Pattern,Funds routed through multiple rapid transfers to obscure origin,Medium
+R005,Mule Account Pattern,Third party account used briefly for rapid inward-outward fund movement,High
+R006,Funnel Account,Many small deposits consolidated into one large outgoing transfer,Low
